@@ -3,7 +3,7 @@ title: "01_erster_post"
 date: 2019-04-03T12:41:24+02:00
 draft: false
 tags: ["links"]
-menu: ["main", "footer"]
+
 ---
 
 # Meine Überschrift
