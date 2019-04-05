@@ -2,8 +2,11 @@
 title: "01_erster_post"
 date: 2019-04-03T12:41:24+02:00
 draft: false
-tags: ["links"]
-
+tags: ["links","links2"]
+categories: ["Lebensmittel","Schreibwaren","Multimedia"]
+aliases: 
+        - /a1/
+        - /a2/
 ---
 
 # Meine Überschrift

@@ -3,9 +3,15 @@ languageCode = "en-us"
 title = "Meine neue Webseite"
 theme = "beautifulhugo"
 
+[permalinks]
+    post  = "/:year/:month/:weekdayname/:title"
+
 [taxonomies]
     tag = "tags"
+    category = "categories"
+    thema = "themen"
     kurs = "kurse"
+    bild = "bilder"
 
     [[menu.main]]
     name = "Blog"
@@ -23,12 +29,6 @@ theme = "beautifulhugo"
     weight = 2
 
  [[menu.main]]
-    parent = "samples"
-    name = "neuer Punkt"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 35
-
-[[menu.main]]
     parent = "samples"
     name = "Big Image Sample"
     url = "post/2017-03-07-bigimg-sample"
@@ -50,3 +50,8 @@ theme = "beautifulhugo"
     name = "Tags"
     url = "tags"
     weight = 3
+
+[[menu.main]]
+name = "bilder"
+    url = "bilder"
+    weight = 10
